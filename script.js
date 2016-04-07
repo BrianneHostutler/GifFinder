@@ -1,3 +1,5 @@
+ $(document).ready(function() {   
+    // your code here
 
 var AllEmotions= ['awesome', 'sad', 'angry', "mad", 'crazy', 'insane', 'amused', 'tired', 'terrified'];
     
@@ -75,4 +77,6 @@ $('#addEmotion').on('click', function(){
     renderButtons();
     return false;
 }); 
+
+ });
 

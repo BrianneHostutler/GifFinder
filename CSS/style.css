@@ -6,6 +6,13 @@ body {
     -o-background-size: cover;
     background-size: cover;
 }
+#title{
+	text-align: center;
+	font-weight: bold;
+	margin-bottom: 30px;
+	font-size: 30pt;
+	font-family: Impact;
+}
 #wrapper{
 	margin: 60px;
 	border: 2px black solid;
@@ -26,6 +33,7 @@ button{
 	margin-bottom: 20px;
 	margin-right: 10px;
 }
+
 p{
 	padding-bottom: 20px;
 }

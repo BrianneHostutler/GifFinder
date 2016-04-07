@@ -18,7 +18,7 @@ function renderButtons(){
     $('button').on('click', function () {// when the buttons are clicked
             $('#gif').empty(); //clears previous images from div 
             var emotion = $(this).data('name'); //gets the name of the emotion
-            var queryURL = "http://api.giphy.com/v1/gifs/search?q=" + emotion + "&api_key=dc6zaTOxFJmzC&limit=10"; //link where the image is
+            var queryURL = "https://api.giphy.com/v1/gifs/search?q=" + emotion + "&api_key=dc6zaTOxFJmzC&limit=10"; //link where the image is
 
             $.ajax({
                 url: queryURL,

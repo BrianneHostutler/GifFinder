@@ -11,18 +11,27 @@ body {
 	font-weight: bold;
 	margin-bottom: 30px;
 	font-size: 30pt;
-	font-family: Impact;
+	font-family: Arial;
 }
 #wrapper{
 	margin: 60px;
 	border: 2px black solid;
-	background-color: white;
 	padding: 30px;
 	border-radius: 10px;
+	background-color: rgba(200, 200, 200, 0.9);
+}
+#directions{
+	text-align: center;
+	padding-bottom: 30px;
+	font-family: Arial;
+	font-size: 18pt;
 }
 .imagestyling{
 	display: inline-block;
 	margin: 30px;
+}
+#addSection{
+	text-align: center;
 }
 button{
 	background-color: gray;
@@ -45,13 +54,11 @@ p{
 	text-align: center;
 }
 #addEmotion{
-	float: right;
+	text-align: center;
 	background-color: orange;
 	font-weight: bold;
 	border-radius: 10px;
 }
 #input{
-	float: right;
 	border: 2px black solid; 
-
 }

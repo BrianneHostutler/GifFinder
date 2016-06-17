@@ -1,6 +1,6 @@
 
-body { 
-    background: url('orange.jpg') no-repeat center center fixed;
+body {
+    background: url('../images/orange.jpg') no-repeat center center fixed;
     -moz-background-size: cover;
     -webkit-background-size: cover;
     -o-background-size: cover;
@@ -60,5 +60,5 @@ p{
 	border-radius: 10px;
 }
 #input{
-	border: 2px black solid; 
+	border: 2px black solid;
 }
